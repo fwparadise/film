@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host: 47.106.156.233
+      port: 27017
+      database: test
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 8089
